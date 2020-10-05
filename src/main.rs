@@ -8,7 +8,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     dbg!(&res);
 
-    dbg!(res.text());
+    dbg!(res.text().unwrap());
 
     Ok(())
 }
